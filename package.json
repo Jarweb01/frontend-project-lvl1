@@ -22,5 +22,8 @@
   "homepage": "https://github.com/Jarweb01/frontend-project-lvl1#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.20.1"
   }
 }
