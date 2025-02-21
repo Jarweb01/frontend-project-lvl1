@@ -6,5 +6,5 @@ export const startGame = () => {
   const name = readlineSync.question("May I have your name? ");
 
   console.log(`Hello, ${name}!`);
-  //   console.log("May I have your name? ", name);
+  return name;
 };

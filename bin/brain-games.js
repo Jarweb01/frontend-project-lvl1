@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
 import { startGame } from "../src/cli.js";
+import { brainEven } from "./brain-even.js";
 
-startGame();
+const username = startGame();
+brainEven(username);
